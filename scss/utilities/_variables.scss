@@ -4,18 +4,29 @@
 
   // Colors
   $color-primary: #58e1c1;
+  $color-col-3: #deb2ee;
   $color-col-4: #7ee6fd;
   $color-col-5: #88d9a0;
   $color-col-6: #4da2bb;
   $color-col-7: #ec9fa3;
+  $color-col-8: #fd9f85;
+  $color-col-9: #e4757a;
+  $color-col-10: #63cc82;
+  $color-col-11: #51ddfc;
+  $color-col-12: #80e8d1;
   $color-link: #51ddfc;
-  $color-nav-button-hover: #58e1c1;
+  $color-link-light: lighten($color-link, 15%);
   $color-text-primary: #777;
   $color-text-white: #fff;
   $color-error: #e4757a;
+  $color-error-light: lighten($color-error, 15%);
   $color-info: #927bc1;
+  $color-info-light: lighten($color-info, 15%);
   $color-success: #63cc82;
+  $color-success-light: lighten($color-success, 15%);
   $color-warning: #fd7856;
+  $color-warning-light: lighten($color-warning, 15%);
+
 
 
 // Typography

@@ -15,26 +15,42 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color 0.2s;
 }
 
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background-color: #9cecfd;
+}
 
 .error {
   background-color: #e4757a;
+}
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
 }
+.info:hover {
+  background-color: #bdafd9;
+}
 
 .success {
   background-color: #63cc82;
 }
+.success:hover {
+  background-color: #9ddfb0;
+}
 
 .warning {
   background-color: #fd7856;
+}
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -144,7 +160,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -153,7 +168,6 @@
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -469,7 +483,7 @@ template {
 }
 
 /* ============================================= */
-/*              Typography                       */
+/*              Base styles                      */
 /* ============================================= */
 * {
   font-family: "Lato", sans-serif;
@@ -485,6 +499,9 @@ a {
   text-decoration: none;
 }
 
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
@@ -521,7 +538,6 @@ a {
   max-width: 100%;
   max-height: 100%;
 }
-
 .img-frame {
   display: block;
   margin-left: auto;
@@ -531,7 +547,6 @@ a {
   padding: 13px;
   border: 1px solid #ccc;
 }
-
 .img-logo {
   display: block;
   margin-left: auto;
